@@ -7,7 +7,10 @@ The key steps in this project include:
 
 
 ### Python step
-The first step in this process is data extraction. We use external data from Kaggle as the example dataset. The Kaggle library is utilized to download the dataset, and Pandas is employed to `extract` and import it into Jupyter. Following this, we perform basic data cleaning tasks, including handling `null` values, converting column names to `lowercase`, and adjusting `data types`. Once the data is cleaned, we load it into SQL using SQLAlchemy.
+The first step in this process is data extraction. We use external data from Kaggle as the example dataset.
+- The Kaggle library is utilized to download the dataset, and Pandas is employed to `extract` and import it into Jupyter.
+- Following this, we perform basic data cleaning tasks, including handling `null` values, converting column names to `lowercase`, and adjusting `data types`.
+- Once the data is cleaned, we load it into SQL using SQLAlchemy.
 You can see the full code [here.](https://github.com/ariiqalfajri/EndtoEndDataAnalysisPythonSql/blob/main/OrderDataAnalysis.ipynb)
 
 ### Transition step
